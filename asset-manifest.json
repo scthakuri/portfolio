@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf538fe7.css",
+    "main.js": "/static/js/main.f9e07c55.js",
+    "static/media/headlight.png": "/static/media/headlight.b5b15ede68454910dfbd.png",
+    "static/media/pactlaunchpad.jpg": "/static/media/pactlaunchpad.d461a40b81b5c499891c.jpg",
+    "static/media/hemoanime.png": "/static/media/hemoanime.a2abeef4f03d58a62408.png",
+    "static/media/cnebd.png": "/static/media/cnebd.b68a319e50faaadce44c.png",
+    "static/media/digitalgurkha.png": "/static/media/digitalgurkha.f6738d780c7d99ef63fd.png",
+    "static/media/HeroImage.png": "/static/media/HeroImage.24f626958eb8e4fd5f35.png",
+    "static/media/kanataestate.png": "/static/media/kanataestate.b4cb1b6991ef3d8d72f8.png",
+    "static/media/meghaonlinekhabar.png": "/static/media/meghaonlinekhabar.9d9f2ccf08585990dd46.png",
+    "static/media/codehelppro.png": "/static/media/codehelppro.8bd147a46eba2afff335.png",
+    "static/media/hamrocsit.png": "/static/media/hamrocsit.8e09810219e0c609ed55.png",
+    "static/media/adsblockdetector.png": "/static/media/adsblockdetector.f6b2b3790505866f65b1.png",
+    "static/media/hamrocsit-app.png": "/static/media/hamrocsit-app.91124b1b41378a5c54cc.png",
+    "static/media/presspalika.png": "/static/media/presspalika.b3510e7d450abcfad8e1.png",
+    "index.html": "/index.html",
+    "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
+    "main.f9e07c55.js.map": "/static/js/main.f9e07c55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.f9e07c55.js"
+  ]
+}
