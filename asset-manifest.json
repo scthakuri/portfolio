@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.796f9f59.js",
+    "main.js": "/static/js/main.c3d7fc39.js",
     "static/media/headlight.png": "/static/media/headlight.b5b15ede68454910dfbd.png",
     "static/media/pactlaunchpad.jpg": "/static/media/pactlaunchpad.d461a40b81b5c499891c.jpg",
     "static/media/hemoanime.png": "/static/media/hemoanime.a2abeef4f03d58a62408.png",
@@ -18,10 +18,10 @@
     "static/media/presspalika.png": "/static/media/presspalika.b3510e7d450abcfad8e1.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.796f9f59.js.map": "/static/js/main.796f9f59.js.map"
+    "main.c3d7fc39.js.map": "/static/js/main.c3d7fc39.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.796f9f59.js"
+    "static/js/main.c3d7fc39.js"
   ]
 }
