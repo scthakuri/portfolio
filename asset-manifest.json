@@ -1,27 +1,28 @@
 {
   "files": {
     "main.css": "/static/css/main.bf538fe7.css",
-    "main.js": "/static/js/main.c3d7fc39.js",
-    "static/media/headlight.png": "/static/media/headlight.b5b15ede68454910dfbd.png",
-    "static/media/pactlaunchpad.jpg": "/static/media/pactlaunchpad.d461a40b81b5c499891c.jpg",
-    "static/media/hemoanime.png": "/static/media/hemoanime.a2abeef4f03d58a62408.png",
-    "static/media/cnebd.png": "/static/media/cnebd.b68a319e50faaadce44c.png",
-    "static/media/digitalgurkha.png": "/static/media/digitalgurkha.f6738d780c7d99ef63fd.png",
+    "main.js": "/static/js/main.ec12b52f.js",
+    "static/media/Innovexisuk.png": "/static/media/Innovexisuk.78b74e454732d2ec1e5e.png",
     "static/media/HeroImage.png": "/static/media/HeroImage.24f626958eb8e4fd5f35.png",
-    "static/media/kanataestate.png": "/static/media/kanataestate.b4cb1b6991ef3d8d72f8.png",
-    "static/media/meghaonlinekhabar.png": "/static/media/meghaonlinekhabar.9d9f2ccf08585990dd46.png",
-    "static/media/codehelppro.png": "/static/media/codehelppro.8bd147a46eba2afff335.png",
-    "static/media/toolkitspro.png": "/static/media/toolkitspro.35b8786affc75271175e.png",
-    "static/media/hamrocsit.png": "/static/media/hamrocsit.8e09810219e0c609ed55.png",
-    "static/media/adsblockdetector.png": "/static/media/adsblockdetector.f6b2b3790505866f65b1.png",
-    "static/media/hamrocsit-app.png": "/static/media/hamrocsit-app.91124b1b41378a5c54cc.png",
-    "static/media/presspalika.png": "/static/media/presspalika.b3510e7d450abcfad8e1.png",
+    "static/media/headlight.png": "/static/media/headlight.5c7087c7e0fa2fc0d252.png",
+    "static/media/pactlaunchpad.jpg": "/static/media/pactlaunchpad.019ce41efdfffaafdf3e.jpg",
+    "static/media/cnebd.png": "/static/media/cnebd.5aaa68ccd248b034a6cb.png",
+    "static/media/hemoanime.png": "/static/media/hemoanime.1b5ebbdcfc6320d4026a.png",
+    "static/media/kanataestate.png": "/static/media/kanataestate.8163b9259b18c3b554eb.png",
+    "static/media/digitalgurkha.png": "/static/media/digitalgurkha.32585c93b617849234a4.png",
+    "static/media/meghaonlinekhabar.png": "/static/media/meghaonlinekhabar.d8b41b58ea2bb19aa0f6.png",
+    "static/media/codehelppro.png": "/static/media/codehelppro.bc35a9dd5c7e003db73d.png",
+    "static/media/toolkitspro.png": "/static/media/toolkitspro.f590893c31f1132719e3.png",
+    "static/media/hamrocsit.png": "/static/media/hamrocsit.d77b38d254549e410ca9.png",
+    "static/media/hamrocsit-app.png": "/static/media/hamrocsit-app.57b40425e7aaeddbe069.png",
+    "static/media/adsblockdetector.png": "/static/media/adsblockdetector.37f3b66cf64ab0c05848.png",
+    "static/media/presspalika.png": "/static/media/presspalika.f210ae7409aa1cf317db.png",
     "index.html": "/index.html",
     "main.bf538fe7.css.map": "/static/css/main.bf538fe7.css.map",
-    "main.c3d7fc39.js.map": "/static/js/main.c3d7fc39.js.map"
+    "main.ec12b52f.js.map": "/static/js/main.ec12b52f.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.c3d7fc39.js"
+    "static/js/main.ec12b52f.js"
   ]
 }
