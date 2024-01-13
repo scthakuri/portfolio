@@ -87,6 +87,11 @@ button {
     opacity: 0;
 }
 
+.ReactModal__Content {
+    max-width: calc(100vw - 2rem);
+    max-height: calc(100vh - 2rem);
+  }
+
 .ReactModal__Overlay .ReactModal__Content {
     animation-name: slide-down;
     animation-duration: 0.5s;

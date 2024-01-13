@@ -17,7 +17,7 @@ const Skills = () => {
                         skills.map((skill) => (
                             <div className="skill_container border-blue-700 border-[1px] flex gap-4 items-start flex-col " key={skill.title}>
                                 <div>
-                                    <h3 className="font-semibold text-xl">{skill.title}</h3>
+                                    <h3 className="text-white font-semibold text-xl">{skill.title}</h3>
 
                                     <div className="flex items-start gap-3 flex-wrap mt-4">
                                         {

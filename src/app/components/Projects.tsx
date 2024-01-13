@@ -78,7 +78,7 @@ export default function Projects() {
                             <div className="tags flex items-center content-center flex-wrap">
                                 {
                                     project?.tags.map((tag) => (
-                                        <span key={tag} className="mb-2 text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">{tag}</span>
+                                        <span key={tag} className="mb-2 text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-600">{tag}</span>
                                     ))
                                 }
                             </div>

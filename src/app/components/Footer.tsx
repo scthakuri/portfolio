@@ -3,7 +3,7 @@ import AnchorLink from './AnchorLink'
 
 export default function Footer() {
     return (
-        <footer className="rounded-lg shadow bg-gray-900">
+        <footer className="shadow bg-gray-900">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <div className="flex mb-8 justify-center md:mb-0 space-x-8 rtl:space-x-reverse">

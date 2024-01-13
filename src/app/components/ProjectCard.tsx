@@ -6,7 +6,7 @@ export default function ProjectCard(props: ProjectType & {
     onPress: () => void
 }) {
     return (
-        <div onClick={props.onPress} className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div onClick={props.onPress} className="border border-gray-700 rounded-lg shadow bg-gray-800">
             <LazyLoadImage
                 src={props?.image}
                 alt={props?.title}
@@ -17,15 +17,15 @@ export default function ProjectCard(props: ProjectType & {
                 <div className="tags flex items-center content-center flex-wrap">
                     {
                         props.tags.map((tag) => (
-                            <span key={tag} className="mb-2 bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-400 border border-gray-500">{tag}</span>
+                            <span key={tag} className="mb-2 text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-600">{tag}</span>
                         ))
                     }
                 </div>
 
-                <h2 className="line-clamp-1 mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{props.title}</h2>
+                <h2 className="line-clamp-1 mb-2 text-2xl font-bold tracking-tight text-white">{props.title}</h2>
 
-                <p className="line-clamp-3 mb-3 font-normal text-gray-700 dark:text-gray-400">{props.description}</p>
-                <button onClick={props.onPress} className="w-full p-3 mt-3 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                <p className="line-clamp-3 mb-3 font-normal text-gray-400">{props.description}</p>
+                <button onClick={props.onPress} className="w-full p-3 mt-3 text-sm font-medium text-center text-white rounded-lg focus:ring-4 focus:outline-none bg-blue-700 hover:bg-blue-700 focus:ring-blue-800">
                     View Project
                 </button>
             </div>

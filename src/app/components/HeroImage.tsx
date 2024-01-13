@@ -22,7 +22,7 @@ const HeroImage = () => {
                                 Hi, I am Suresh Chand
                             </h1>
 
-                            <div className="flex items-center gap-2 text-3xl font-bold text-center justify-center mb-5">
+                            <div className="text-white flex items-center gap-2 text-3xl font-bold text-center justify-center mb-5">
                                 I am a
 
                                 <Typewriter

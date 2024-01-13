@@ -21,15 +21,15 @@ export default function Experience() {
                                                 <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                                             </svg>
                                         </span>
-                                        <h3 className="flex items-center mb-1 text-lg font-semibold text-white">{edu.role} {edu.running && <span className="bg-blue-300 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded bg-blue-900 ms-3">Till Now</span>}</h3>
+                                        <h3 className="flex items-center mb-1 text-lg font-semibold text-white">{edu.role} {edu.running && <span className="bg-blue-300 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded ms-3">Till Now</span>}</h3>
                                         <time className="block mb-2 text-sm font-normal leading-none text-gray-500">{edu.company}</time>
                                         <p className="mb-4 text-base font-normal text-gray-400">{edu.desc}</p>
 
                                         <div className="tags flex items-center content-center flex-wrap">
-                                        <span className="mb-2 font-medium me-2 px-2.5 py-0.5">Technology:</span>
+                                        <span className="mb-2 font-medium me-2 px-2.5 py-0.5 text-white">Technology:</span>
                                              {
                                                 edu.skills.map((tag) => (
-                                                    <span key={tag} className="mb-2 text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-500">{tag}</span>
+                                                    <span key={tag} className="mb-2 text-xs font-medium me-2 px-2.5 py-0.5 rounded bg-gray-700 text-gray-400 border border-gray-600">{tag}</span>
                                                 ))
                                             }
                                         </div>
