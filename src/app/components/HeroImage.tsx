@@ -31,7 +31,7 @@ const HeroImage = () => {
                             </div>
 
                             <p className="font-medium text-lg md:text-xl leading-relaxed md:leading-relaxed text-body-color dark:text-white dark:opacity-90 mb-12">
-                                I'm an eager and flexible individual, always excited to tackle new challenges. Learning is my passion, and I'm determined to deliver excellent results. With a positive outlook and a mindset focused on growth, I'm prepared to make a meaningful contribution and accomplish great things.
+                                I&apos;m an eager and flexible individual, always excited to tackle new challenges. Learning is my passion, and I&apos;m determined to deliver excellent results. With a positive outlook and a mindset focused on growth, I&apos;m prepared to make a meaningful contribution and accomplish great things.
                             </p>
                             <div className="flex items-center justify-center">
                                 <a href="malto:sureshchand12a@gmail.com" className="text-base font-semibold text-white bg-blue-700 py-4 px-8 hover:bg-opacity-80 mx-2 rounded-md transition duration-300 ease-in-out">
