@@ -1,6 +1,5 @@
 "use client";
 
-import Image from 'next/image'
 import Navbar from './components/Navbar'
 import HeroImage from './components/HeroImage'
 import Skills from './components/Skills'
@@ -12,7 +11,6 @@ import Contact from './components/Contact'
 import { Bounce, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import 'react-lazy-load-image-component/src/effects/blur.css';
-import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 export default function Home() {
 
@@ -49,19 +47,19 @@ export default function Home() {
             <HeroImage />
 
             {/**Skill Section */}
-            <LazyLoadComponent><Skills /></LazyLoadComponent>
+            <Skills />
 
             {/**Education Section */}
-            <LazyLoadComponent><Education /></LazyLoadComponent>
+            <Education />
 
             {/**Projects Section */}
-            <LazyLoadComponent><Projects /></LazyLoadComponent>
+            <Projects />
 
             {/**Experience Section */}
-            <LazyLoadComponent><Experience /></LazyLoadComponent>
+            <Experience />
 
             {/**Contact Section */}
-            <LazyLoadComponent><Contact /></LazyLoadComponent>
+            <Contact />
 
             {/**Footer Section */}
             <Footer />
