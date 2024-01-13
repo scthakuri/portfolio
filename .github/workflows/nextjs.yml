@@ -31,6 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Set BASE_PATH variable
+        run: echo "BASE_PATH=/" >> $GITHUB_ENV
+
+      - name: Set ASSET_PREFIX variable
+        run: echo "ASSET_PREFIX=/" >> $GITHUB_ENV
+
       - name: Detect package manager
         id: detect-package-manager
         run: |
@@ -53,6 +60,9 @@ jobs:
         with:
           node-version: "20"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+          base_path: ${{ env.BASE_PATH }}
+          asset_prefix: ${{ env.ASSET_PREFIX }}
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
         with:
