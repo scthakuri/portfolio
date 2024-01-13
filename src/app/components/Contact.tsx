@@ -32,35 +32,35 @@ export default function Contact() {
     }
 
     return (
-        <div className="bg-white dark:bg-gray-900 py-16" id="contact">
+        <div className="bg-gray-900 py-16" id="contact">
             <div className="container mx-auto">
                 <div className="max-w-screen-md mx-auto">
-                    <div className="bg-blue-400 bg-opacity-[3%] dark:bg-dark rounded-md p-11 mb-12 lg:mb-5 sm:p-[55px] lg:p-11 xl:p-[55px] wow fadeInUp" data-wow-delay=".15s" style={{
+                    <div className="bg-opacity-[3%] bg-dark rounded-md p-11 mb-12 lg:mb-5 sm:p-[55px] lg:p-11 xl:p-[55px] wow fadeInUp" data-wow-delay=".15s" style={{
                         visibility: "visible",
                         animationDelay: "0.15s"
                     }}>
-                        <h2 className="font-bold text-black dark:text-white text-2xl sm:text-3xl lg:text-2xl xl:text-3xl mb-3">Need Help?</h2>
+                        <h2 className="font-bold text-white text-2xl sm:text-3xl lg:text-2xl xl:text-3xl mb-3">Need Help?</h2>
 
-                        <p className="text-body-color text-base font-medium mb-12">Feel free to reach out to me for any questions or opportunities or mail me directly on <a href="mailto:sureshchand12a@gmail.com" className="underline text-blue-700" rel="noopener noreferrer">sureshchand12a@gmail.com</a></p>
+                        <p className="text-body-color text-base font-medium mb-12">Feel free to reach out to me for any questions or opportunities or mail me directly on <a href="mailto:sureshchand12a@gmail.com" className="underline text-blue-700">sureshchand12a@gmail.com</a></p>
 
                         <div className="flex flex-wrap mx-[-16px]">
                             <div className="w-full md:w-1/2 px-4">
                                 <div className="mb-8">
-                                    <label htmlFor="name" className="block text-sm font-medium text-dark dark:text-white mb-3"> Your Name </label>
-                                    <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Enter your name" className="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-blue-700" />
+                                    <label htmlFor="name" className="block text-sm font-medium text-white mb-3"> Your Name </label>
+                                    <input value={name} onChange={(e) => setName(e.target.value)} type="text" placeholder="Enter your name" className="w-full border border-transparent bg-[#242B51] rounded-md shadow-one shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-blue-700" />
                                 </div>
                             </div>
                             <div className="w-full md:w-1/2 px-4">
                                 <div className="mb-8">
-                                    <label htmlFor="email" className="block text-sm font-medium text-dark dark:text-white mb-3"> Your Email </label>
-                                    <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Enter your email" className="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-blue-700" />
+                                    <label htmlFor="email" className="block text-sm font-medium text-white mb-3"> Your Email </label>
+                                    <input value={email} onChange={(e) => setEmail(e.target.value)} type="email" placeholder="Enter your email" className="w-full border border-transparent bg-[#242B51] rounded-md shadow-one shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-blue-700" />
                                 </div>
                             </div>
                             <div className="w-full px-4">
                                 <div className="mb-8">
-                                    <label htmlFor="message" className="block text-sm font-medium text-dark dark:text-white mb-3"> Your Message
+                                    <label htmlFor="message" className="block text-sm font-medium text-white mb-3"> Your Message
                                     </label>
-                                    <textarea value={message} onChange={(e) => setMessage(e.target.value)} rows={5} placeholder="Enter your Message" className="w-full border border-transparent dark:bg-[#242B51] rounded-md shadow-one dark:shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-blue-700 resize-none"></textarea>
+                                    <textarea value={message} onChange={(e) => setMessage(e.target.value)} rows={5} placeholder="Enter your Message" className="w-full border border-transparent bg-[#242B51] rounded-md shadow-one shadow-signUp py-3 px-6 text-body-color text-base placeholder-body-color outline-none focus-visible:shadow-none focus:border-blue-700 resize-none"></textarea>
                                 </div>
                             </div>
                             <div className="w-full px-4">

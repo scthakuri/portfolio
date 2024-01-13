@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Sitemap: https://sureshchand.com.np/sitemap.xml
+Disallow:/cgi-bin/

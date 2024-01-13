@@ -14,7 +14,7 @@ const HeroImage = () => {
                             visibility: "visible",
                             animationDelay : "0.2s"
                         }}>
-                            <h1 className="text-black dark:text-white font-bold text-3xl sm:text-4xl md:text-5xl leading-tight sm:leading-tight md:leading-tight mb-5">
+                            <h1 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl leading-tight sm:leading-tight md:leading-tight mb-5">
                                 Hi, I am Suresh Chand
                             </h1>
 
@@ -30,14 +30,14 @@ const HeroImage = () => {
                                 />
                             </div>
 
-                            <p className="font-medium text-lg md:text-xl leading-relaxed md:leading-relaxed text-body-color dark:text-white dark:opacity-90 mb-12">
+                            <p className="font-medium text-lg md:text-xl leading-relaxed md:leading-relaxed text-white opacity-90 mb-12">
                                 I&apos;m an eager and flexible individual, always excited to tackle new challenges. Learning is my passion, and I&apos;m determined to deliver excellent results. With a positive outlook and a mindset focused on growth, I&apos;m prepared to make a meaningful contribution and accomplish great things.
                             </p>
                             <div className="flex items-center justify-center">
                                 <a href="mailto:sureshchand12a@gmail.com" className="text-base font-semibold text-white bg-blue-700 py-4 px-8 hover:bg-opacity-80 mx-2 rounded-md transition duration-300 ease-in-out">
                                     Hire me
                                 </a>
-                                <a href="https://github.com/scthakuri" target="_blank" className="text-base font-semibold text-black bg-black bg-opacity-10 dark:text-white dark:bg-white dark:bg-opacity-10 py-4 px-8 hover:bg-opacity-20 dark:hover:bg-opacity-20 mx-2 rounded-md transition duration-300 ease-in-out">
+                                <a href="https://github.com/scthakuri" target="_blank" className="text-base font-semibold text-white bg-white bg-opacity-10 py-4 px-8 hover:bg-opacity-20 hover:bg-opacity-20 mx-2 rounded-md transition duration-300 ease-in-out">
                                     Github Profile
                                 </a>
                             </div>

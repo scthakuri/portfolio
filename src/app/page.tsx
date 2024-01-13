@@ -15,16 +15,42 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 
 export default function Home() {
-    
+
+    const jsonLd = {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Suresh Chand",
+        "url": "https://sureshchand.com.np",
+        "image": "https://sureshchand.com.np/images/HeroImage.png",
+        "sameAs": [
+            "https://facebook.com/sc.thakuri",
+            "https://twitter.com/scthakuri",
+            "https://instagram.com/sc.thakuri",
+            "https://www.linkedin.com/in/scthakuri/",
+            "https://github.com/scthakuri/",
+            "https://sureshchand.com.np"
+        ],
+        "jobTitle": "Full Stack Developer",
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Klixsoft Pvt. Ltd."
+        }
+    }
+
     return (
         <>
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
+
             <Navbar />
 
             <HeroImage />
 
             {/**Skill Section */}
             <LazyLoadComponent><Skills /></LazyLoadComponent>
-            
+
             {/**Education Section */}
             <LazyLoadComponent><Education /></LazyLoadComponent>
 
@@ -40,7 +66,7 @@ export default function Home() {
             {/**Footer Section */}
             <Footer />
 
-            <ToastContainer 
+            <ToastContainer
                 position="top-right"
                 autoClose={3000}
                 hideProgressBar={false}
