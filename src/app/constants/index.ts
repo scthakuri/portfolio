@@ -200,7 +200,7 @@ export const projects = [
         date: "Jul 2023 - Aug 2023",
         description:
             "Innovexis: Making Every Particle Count Discover the future where engineering and medical innovation converge. At Innovexis, we specialize in Particle Characterisation, using cutting-edge technology to transform industries and improve lives.",
-        image: "/images/portifilio/kaushala.png",
+        image: "./images/portifilio/kaushala.png",
         tags: [
             "HTML",
             "CSS",
@@ -219,7 +219,7 @@ export const projects = [
         date: "Jul 2023 - Aug 2023",
         description:
             "Innovexis: Making Every Particle Count Discover the future where engineering and medical innovation converge. At Innovexis, we specialize in Particle Characterisation, using cutting-edge technology to transform industries and improve lives.",
-        image: "/images/portifilio/Innovexisuk.png",
+        image: "./images/portifilio/Innovexisuk.png",
         tags: [
             "HTML",
             "CSS",
@@ -238,7 +238,7 @@ export const projects = [
         date: "Jul 2023 - Aug 2023",
         description:
             "Digital Gurkha first came into existence in a small room with two whiteboards, with a mission to be creative and make an impact in the Digital Marketing Industry. Back then, we did not have a mission and vision statement, but we knew that we wanted to create an organization where outliers could thrive, learn constantly, and do things differently.",
-        image: "/images/portifilio/digitalgurkha.png",
+        image: "./images/portifilio/digitalgurkha.png",
         tags: [
             "HTML",
             "CSS",
@@ -257,7 +257,7 @@ export const projects = [
         date: "Nov 2020 - Jan 2021",
         description:
             "D4U.CA is your premier source for unbeatable deals and listings in Calgary NE, Canada. Tailored for both consumers and businesses, our platform connects you to a wealth of exclusive offers, discounts, and valuable information. Whether you're a local looking to save or a business eager to showcase your offerings, D4U.CA is your gateway to enhancing your Calgary NE experience.",
-        image: "/images/portifilio/cnebd.png",
+        image: "./images/portifilio/cnebd.png",
         tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
         category: "web app",
         github: "",
@@ -269,7 +269,7 @@ export const projects = [
         date: "Mar 2023 - Present",
         description:
             "Tool Kits Pro is your all-in-one solution for unlocking the full potential of SEO. As a comprehensive website, we offer a curated selection of powerful SEO tools that empower businesses and individuals to enhance their online presence, analyze data, and optimize their websites for maximum visibility. Whether you're a digital marketer, website owner, or SEO enthusiast, Tool Kits Pro provides a user-friendly hub where you can access a suite of essential tools to elevate your search engine optimization strategies and drive meaningful results.",
-        image: "/images/portifilio/toolkitspro.png",
+        image: "./images/portifilio/toolkitspro.png",
         tags: ["PHP", "HTML", "CSS", "Bootstrap", "jQuery"],
         category: "web app",
         github: "https://github.com/klixsoft/toolkitspro",
@@ -281,7 +281,7 @@ export const projects = [
         date: "Mar 2021 - Jun 2023",
         description:
             "Hamrocsit is an e-learning website tailored to support CSIT students with comprehensive notes and solutions. Our platform offers a valuable collection of study materials and problem-solving resources, catering specifically to the needs of Computer Science and Information Technology students. With easy access to well-structured content, Hamrocsit simplifies your learning journey, helping you excel in your studies and achieve academic success.",
-        image: "/images/portifilio/hamrocsit.png",
+        image: "./images/portifilio/hamrocsit.png",
         tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
         category: "web app",
         github: "",
@@ -293,7 +293,7 @@ export const projects = [
         date: "May 2021 - Jun 2023",
         description:
             "Hamrocsit App is the ultimate educational companion designed exclusively for CSIT students. Available on both Android and iOS platforms, this innovative application redefines how you access and engage with learning materials. Seamlessly dive into a world of in-depth study notes, comprehensive solutions, and expertly curated resources, tailored to empower you in your pursuit of excellence in Computer Science and Information Technology. From tackling complex algorithms to unraveling intricate programming concepts, Hamrocsit App ensures you have the tools to succeed, all conveniently accessible right from your mobile device. Whether you're on the move, in between classes, or taking a quick break, Hamrocsit App keeps your learning journey uninterrupted. Elevate your academic experience, conquer challenges, and excel in your CSIT endeavors – all through the power of Hamrocsit App.",
-        image: "/images/portifilio/hamrocsit-app.png",
+        image: "./images/portifilio/hamrocsit-app.png",
         tags: ["React Native", "Android Studio", "Material UI"],
         category: "android app",
         github: "",
@@ -305,7 +305,7 @@ export const projects = [
         date: "Jun 2022 - Jul 2022",
         description:
             "HemoAnime T-shirt Store is a website where you can buy cool T-shirts inspired by anime. We've made it easy to find and buy your favorite designs. Whether you love action, humor, or cute characters, our T-shirts let you show off your passion for anime while looking stylish and feeling comfortable.",
-        image: "/images/portifilio/hemoanime.png",
+        image: "./images/portifilio/hemoanime.png",
         tags: [
             "HTML",
             "CSS",
@@ -324,7 +324,7 @@ export const projects = [
         date: "Jul 2022 - Aug 2022",
         description:
             "HeadLight Pvt Ltd is a non-profit organization (NGO) dedicated to making a positive impact on our community. Through various initiatives and projects, we strive to bring about meaningful change, uplift those in need, and create a better future for all. Our mission is to shed light on important social issues and work collaboratively to create solutions that improve lives and promote a brighter, more inclusive society.",
-        image: "/images/portifilio/headlight.png",
+        image: "./images/portifilio/headlight.png",
         tags: [
             "HTML",
             "CSS",
@@ -343,7 +343,7 @@ export const projects = [
         date: "Feb 2022 - Mar 2022",
         description:
             "Press Palika is a comprehensive news website that keeps you informed about current events and developments from around the world. With a user-friendly interface, we deliver up-to-date and accurate news stories, covering a wide range of topics including politics, technology, entertainment, and more. Our goal is to provide readers with a reliable source of information to stay connected and engaged with the latest happenings, all in one convenient online platform.",
-        image: "/images/portifilio/presspalika.png",
+        image: "./images/portifilio/presspalika.png",
         tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
         category: "web app",
         github: "",
@@ -355,7 +355,7 @@ export const projects = [
         date: "Aug 2021 - Present",
         description:
             "CHP Ads Block Detector is wordpress plugin that will detect most of the AdBlock extensions installed on the browser and show a popup to disable the extension. This plugin restricts the user to access the page unless the user will disable the extension for your website.",
-        image: "/images/portifilio/adsblockdetector.png",
+        image: "./images/portifilio/adsblockdetector.png",
         tags: ["PHP", "HTML", "CSS", "Wordpress", "WP Plugin"],
         category: "wp plugin",
         github: "https://github.com/sureshchand12a/chp-ads-block-detector",
@@ -367,7 +367,7 @@ export const projects = [
         date: "Jul 2020 - Jul 2021",
         description:
             "Code Help Pro is your passport to programming excellence. Seamlessly designed for both beginners and experienced coders, our e-learning platform offers a curated collection of interactive lessons, projects, and expert insights. Elevate your coding skills, tackle new challenges, and unlock a world of programming possibilities with Code Help Pro.",
-        image: "/images/portifilio/codehelppro.png",
+        image: "./images/portifilio/codehelppro.png",
         tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
         category: "web app",
         github: "",
@@ -379,7 +379,7 @@ export const projects = [
         date: "Apr 2020 - May 2020",
         description:
             "Kanata Estate is your gateway to exceptional real estate opportunities across Canada. Our platform is dedicated to showcasing an exquisite collection of properties, from charming homes to stunning estates. Whether you're a buyer seeking your dream home or a seller looking to showcase your property to a discerning audience, Kanata Estate provides a seamless and comprehensive platform to explore, connect, and transform your real estate aspirations into reality.",
-        image: "/images/portifilio/kanataestate.png",
+        image: "./images/portifilio/kanataestate.png",
         tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
         category: "web app",
         github: "",
