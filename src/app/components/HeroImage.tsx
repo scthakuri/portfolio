@@ -9,6 +9,10 @@ const HeroImage = () => {
         <section id="about" className="relative overflow-hidden z-10 py-[110px]">
             <div className="container mx-auto">
                 <div className="flex flex-wrap mx-[-16px]">
+
+                    <img src="./images/banner.png" alt="Suresh Chand | Professional Web and Application Developer" className="hidden" />
+                    <img src="./images/HeroImage.png" alt="Suresh Chand | Professional Web and Application Developer" className="hidden" />
+
                     <div className="w-full px-4">
                         <div className="mx-auto max-w-[570px] text-center wow fadeInUp" data-wow-delay=".2s" style={{
                             visibility: "visible",

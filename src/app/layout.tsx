@@ -15,24 +15,32 @@ export const metadata: Metadata = {
         name : "Suresh Chand",
         url : "https://sureshchand.com.np"
     },
+    keywords : ["Suresh Chand, Wordpress Developer, Full Stack Developer, React, React Native, Nextjs, Node, Programmer"],
     generator : "Next",
+    referrer  : "origin",
     viewport : {
         initialScale : 1.0,
         width : "device-width"
     },
     creator : "Suresh Chand",
     openGraph : {
+        type : "profile",
         title : TITLE,
         description : DESCRIPTION,
         url : "https://sureshchand.com.np",
         countryName : "Nepal",
-        siteName : "Suresh Chand"
+        siteName : "Suresh Chand",
+        images : [{
+            url : "https://sureshchand.com.np/images/banner.png"
+        }]
     },
     twitter : {
+        card : "summary_large_image",
         title : TITLE,
         description : DESCRIPTION,
         creator : "Suresh Chand",
-        site : "Suresh Chand"
+        site : "Suresh Chand",
+        images : "https://sureshchand.com.np/images/banner.png"
     },
     category : "Portfolio"
 }
