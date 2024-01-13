@@ -4,7 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const Skills = () => {
     return (
-        <section id="skills" className="bg-gray-900 py-16">
+        <section id="skills" className="bg-gray-900 py-8 md:py-14">
             <div className="container mx-auto">
                 <div className="text-center">
                     <h2 className="mb-4 text-3xl font-extrabold leading-none tracking-tight md:text-4xl lg:text-5xl text-white">Skills</h2>

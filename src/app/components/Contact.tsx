@@ -32,10 +32,10 @@ export default function Contact() {
     }
 
     return (
-        <div className="bg-gray-900 py-16" id="contact">
+        <div className="bg-gray-900 py-8 md:py-14" id="contact">
             <div className="container mx-auto">
                 <div className="max-w-screen-md mx-auto">
-                    <div className="bg-opacity-[3%] bg-dark rounded-md p-11 mb-12 lg:mb-5 sm:p-[55px] lg:p-11 xl:p-[55px] wow fadeInUp" data-wow-delay=".15s" style={{
+                    <div className="bg-opacity-[3%] bg-dark rounded-md p-11 md:mb-12 lg:mb-5 sm:p-[55px] lg:p-11 xl:p-[55px] wow fadeInUp" data-wow-delay=".15s" style={{
                         visibility: "visible",
                         animationDelay: "0.15s"
                     }}>

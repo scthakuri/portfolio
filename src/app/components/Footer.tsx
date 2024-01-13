@@ -6,7 +6,7 @@ export default function Footer() {
         <footer className="rounded-lg shadow bg-gray-900">
             <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <div className="flex mt-4 sm:justify-center md:mt-0 space-x-6 rtl:space-x-reverse">
+                    <div className="flex mb-8 justify-center md:mb-0 space-x-8 rtl:space-x-reverse">
                         <a href="https://facebook.com/sc.thakuri" target="_blank" title="Facebook Page" className="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                             <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                                 <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd" />
@@ -35,24 +35,23 @@ export default function Footer() {
                         </a>
                     </div>
 
-
-                    <ul className="flex flex-wrap items-center mb-6 font-medium sm:mb-0 text-gray-400">
-                        <li>
+                    <ul className="flex flex-wrap justify-center items-center mb-6 font-medium sm:mb-0 text-gray-400">
+                        <li className="mb-3 md:mb-0">
                             <AnchorLink title="About Me" href="#about" className="hover:text-white me-4 md:me-6" aria-current="page">Home</AnchorLink>
                         </li>
-                        <li>
+                        <li className="mb-3 md:mb-0">
                             <AnchorLink title="My Skills" href="#skills" className="hover:text-white me-4 md:me-6">Skills</AnchorLink>
                         </li>
-                        <li>
+                        <li className="mb-3 md:mb-0">
                             <AnchorLink title="My Education" href="#education" className="hover:text-white me-4 md:me-6">Education</AnchorLink>
                         </li>
-                        <li>
+                        <li className="mb-3 md:mb-0">
                             <AnchorLink title="My Projects" href="#projects" className="hover:text-white me-4 md:me-6">Projects</AnchorLink>
                         </li>
-                        <li>
+                        <li className="mb-3 md:mb-0">
                             <AnchorLink title="My Experience" href="#contact" className="hover:text-white me-4 md:me-6">Contact</AnchorLink>
                         </li>
-                        <li>
+                        <li className="mb-3 md:mb-0">
                             <AnchorLink title="Contact Me" href="#experience" className="hover:text-white">Experience</AnchorLink>
                         </li>
                     </ul>

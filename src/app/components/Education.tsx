@@ -3,7 +3,7 @@ import { education } from '../constants'
 
 export default function Education() {
     return (
-        <section className="bg-gray-900 py-16" id="education">
+        <section className="bg-gray-900 py-8 md:py-14" id="education">
             <div className="container mx-auto">
                 <div className="max-w-screen-md mx-auto">
                     <div className="text-center w-full mb-10">
