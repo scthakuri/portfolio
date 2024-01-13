@@ -16,7 +16,10 @@ export const metadata: Metadata = {
         url : "https://sureshchand.com.np"
     },
     generator : "Next",
-    viewport : "width=device-width, initial-scale=1",
+    viewport : {
+        initialScale : 1.0,
+        width : "device-width"
+    },
     creator : "Suresh Chand",
     openGraph : {
         title : TITLE,

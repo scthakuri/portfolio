@@ -195,7 +195,7 @@ export const education = [
 
 export const projects = [
     {
-        id: 11,
+        id: 12,
         title: "Kaushala Ltd",
         date: "Jul 2023 - Aug 2023",
         description:
@@ -214,7 +214,7 @@ export const projects = [
         webapp: "https://kaushala.com/",
     },
     {
-        id: 10,
+        id: 11,
         title: "Innovexis Ltd",
         date: "Jul 2023 - Aug 2023",
         description:
@@ -233,7 +233,7 @@ export const projects = [
         webapp: "https://innovexis.co.uk/",
     },
     {
-        id: 9,
+        id: 10,
         title: "Digital Gurkha",
         date: "Jul 2023 - Aug 2023",
         description:
@@ -252,7 +252,19 @@ export const projects = [
         webapp: "https://digitalgurkha.com/",
     },
     {
-        id: 5,
+        id: 9,
+        title: "Ads Block Detector",
+        date: "Aug 2021 - Present",
+        description:
+            "CHP Ads Block Detector is wordpress plugin that will detect most of the AdBlock extensions installed on the browser and show a popup to disable the extension. This plugin restricts the user to access the page unless the user will disable the extension for your website.",
+        image: "./images/portifilio/adsblockdetector.png",
+        tags: ["PHP", "HTML", "CSS", "Wordpress", "WP Plugin"],
+        category: "wp plugin",
+        github: "https://github.com/sureshchand12a/chp-ads-block-detector",
+        webapp: "https://wordpress.org/plugins/chp-ads-block-detector/",
+    },
+    {
+        id: 8,
         title: "Deal For You",
         date: "Nov 2020 - Jan 2021",
         description:
@@ -264,7 +276,7 @@ export const projects = [
         webapp: "https://d4u.ca",
     },
     {
-        id: 3,
+        id: 7,
         title: "Tool Kits PRO",
         date: "Mar 2023 - Present",
         description:
@@ -276,7 +288,7 @@ export const projects = [
         webapp: "https://toolkitspro.com",
     },
     {
-        id: 2,
+        id: 6,
         title: "Hamro CSIT",
         date: "Mar 2021 - Jun 2023",
         description:
@@ -288,7 +300,7 @@ export const projects = [
         webapp: "https://hamrocsit.com"
     },
     {
-        id: 3,
+        id: 5,
         title: "Hamro CSIT Application",
         date: "May 2021 - Jun 2023",
         description:
@@ -300,7 +312,7 @@ export const projects = [
         webapp: "https://play.google.com/store/apps/details?id=com.hamrocsit",
     },
     {
-        id: 9,
+        id: 4,
         title: "HemoAnime T-shirt Store",
         date: "Jun 2022 - Jul 2022",
         description:
@@ -319,7 +331,7 @@ export const projects = [
         webapp: "https://hemotshirt.com/",
     },
     {
-        id: 0,
+        id: 3,
         title: "HeadLight Pvt Ltd",
         date: "Jul 2022 - Aug 2022",
         description:
@@ -338,7 +350,7 @@ export const projects = [
         webapp: "https://headlightpvt.com"
     },
     {
-        id: 1,
+        id: 2,
         title: "Press Palika",
         date: "Feb 2022 - Mar 2022",
         description:
@@ -350,19 +362,7 @@ export const projects = [
         webapp: "https://presspalika.com",
     },
     {
-        id: 10,
-        title: "Ads Block Detector",
-        date: "Aug 2021 - Present",
-        description:
-            "CHP Ads Block Detector is wordpress plugin that will detect most of the AdBlock extensions installed on the browser and show a popup to disable the extension. This plugin restricts the user to access the page unless the user will disable the extension for your website.",
-        image: "./images/portifilio/adsblockdetector.png",
-        tags: ["PHP", "HTML", "CSS", "Wordpress", "WP Plugin"],
-        category: "wp plugin",
-        github: "https://github.com/sureshchand12a/chp-ads-block-detector",
-        webapp: "https://wordpress.org/plugins/chp-ads-block-detector/",
-    },
-    {
-        id: 4,
+        id: 1,
         title: "Code Help Pro",
         date: "Jul 2020 - Jul 2021",
         description:
@@ -374,7 +374,7 @@ export const projects = [
         webapp: "https://codehelppro.com",
     },
     {
-        id: 6,
+        id: 0,
         title: "Kanata Estate",
         date: "Apr 2020 - May 2020",
         description:

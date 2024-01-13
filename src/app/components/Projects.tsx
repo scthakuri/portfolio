@@ -41,7 +41,7 @@ export default function Projects() {
                         <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.</p>
                     </div>
 
-                    <div className="grid md:grid-cols-3 max-w-screen-lg mx-auto gap-[30px] mt-16 px-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 max-w-screen-lg mx-auto gap-[30px] mt-16 md:px-5">
                         {
                             projects.map((item) => (
                                 <ProjectCard
