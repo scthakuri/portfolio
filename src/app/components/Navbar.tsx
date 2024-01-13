@@ -8,7 +8,7 @@ const Navbar = () => {
         try {
             const onScroll = () => {
                 if (window.scrollY > 100) {
-                    setClassName("bg-blue-900 sticky top-0 z-[99]");
+                    setClassName("bg-blue-800 sticky top-0 z-[99]");
                 } else {
                     setClassName("bg-transparent");
                 }
