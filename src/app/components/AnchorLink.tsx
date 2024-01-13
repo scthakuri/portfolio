@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function AnchorLink(props: React.DetailedHTMLProps<React.AnchorHTMLAttributes<HTMLAnchorElement>, HTMLAnchorElement>) {
-    const { onClick, ...rest } = props;
+    const { title, onClick, ...rest } = props;
 
     const smoothScroll = (e: any) => {
         e.preventDefault();

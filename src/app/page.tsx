@@ -14,24 +14,40 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function Home() {
 
-    const jsonLd = {
-        "@context": "https://schema.org/",
-        "@type": "Person",
-        "name": "Suresh Chand",
-        "url": "https://sureshchand.com.np",
-        "image": "https://sureshchand.com.np/images/HeroImage.png",
-        "sameAs": [
-            "https://facebook.com/sc.thakuri",
-            "https://twitter.com/scthakuri",
-            "https://instagram.com/sc.thakuri",
-            "https://www.linkedin.com/in/scthakuri/",
-            "https://github.com/scthakuri/",
-            "https://sureshchand.com.np"
-        ],
-        "jobTitle": "Full Stack Developer",
-        "worksFor": {
-            "@type": "Organization",
-            "name": "Klixsoft Pvt. Ltd."
+    const profileJSONLd = {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "dateCreated": "2024-01-13T12:34:00-05:00",
+        "dateModified": "2024-01-13T14:53:00-05:00",
+        "mainEntity": {
+            "@type": "Person",
+            "name": "Suresh Chand",
+            "alternateName": "scthakuri",
+            "identifier": "scthakuri",
+            "interactionStatistic": [{
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/FollowAction",
+                "userInteractionCount": 786
+            }, {
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/LikeAction",
+                "userInteractionCount": 9845
+            }],
+            "agentInteractionStatistic": {
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/WriteAction",
+                "userInteractionCount": 34
+            },
+            "description": "Expert developer in WordPress, React.js, React Native, and Node.js. I create smooth websites and apps using different technologies. Check out my work for innovative solutions.",
+            "image": "https://sureshchand.com.np/images/HeroImage.png",
+            "sameAs": [
+                "https://facebook.com/sc.thakuri",
+                "https://twitter.com/scthakuri",
+                "https://instagram.com/sc.thakuri",
+                "https://www.linkedin.com/in/scthakuri/",
+                "https://github.com/scthakuri/",
+                "https://sureshchand.com.np"
+            ]
         }
     }
 
@@ -39,7 +55,7 @@ export default function Home() {
         <>
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(profileJSONLd) }}
             />
 
             <Navbar />

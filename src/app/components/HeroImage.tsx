@@ -34,10 +34,10 @@ const HeroImage = () => {
                                 I&apos;m an eager and flexible individual, always excited to tackle new challenges. Learning is my passion, and I&apos;m determined to deliver excellent results. With a positive outlook and a mindset focused on growth, I&apos;m prepared to make a meaningful contribution and accomplish great things.
                             </p>
                             <div className="flex items-center justify-center">
-                                <a href="mailto:sureshchand12a@gmail.com" className="text-base font-semibold text-white bg-blue-700 py-4 px-8 hover:bg-opacity-80 mx-2 rounded-md transition duration-300 ease-in-out">
+                                <a title="Hire Me" href="mailto:sureshchand12a@gmail.com" className="text-base font-semibold text-white bg-blue-700 py-4 px-8 hover:bg-opacity-80 mx-2 rounded-md transition duration-300 ease-in-out">
                                     Hire me
                                 </a>
-                                <a href="https://github.com/scthakuri" target="_blank" className="text-base font-semibold text-white bg-white bg-opacity-10 py-4 px-8 hover:bg-opacity-20 hover:bg-opacity-20 mx-2 rounded-md transition duration-300 ease-in-out">
+                                <a title="Github Profile" href="https://github.com/scthakuri" target="_blank" className="text-base font-semibold text-white bg-white bg-opacity-10 py-4 px-8 hover:bg-opacity-20 hover:bg-opacity-20 mx-2 rounded-md transition duration-300 ease-in-out">
                                     Github Profile
                                 </a>
                             </div>

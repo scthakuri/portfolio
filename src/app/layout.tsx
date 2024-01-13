@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 
 const TITLE = 'Suresh Chand | Professional Web and Application Developer';
-const DESCRIPTION = 'I am a web Designer with extensive experience for over 3 years. My expertise is to create website, App Development using React Native and more.';
+const DESCRIPTION = 'Expert developer in WordPress, React.js, React Native, and Node.js. I create smooth websites and apps using different technologies. Check out my work for innovative solutions.';
 
 export const metadata: Metadata = {
     title: TITLE,

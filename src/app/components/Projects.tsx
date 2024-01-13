@@ -87,9 +87,9 @@ export default function Projects() {
 
                             <div className="flex space-x-4 mb-4 mt-5">
                                 {
-                                    project?.github && <a href={project?.github} target="_blank" className="flex-1 rounded-md bg-blue-600 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 text-center">View Code</a>
+                                    project?.github && <a title="Github URL" href={project?.github} target="_blank" className="flex-1 rounded-md bg-blue-600 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 text-center">View Code</a>
                                 }
-                                <a href={project?.webapp} target="_blank" type="button" className="flex-1 rounded-md bg-blue-700 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 text-center">View Live App</a>
+                                <a href={project?.webapp} title="Live URL" target="_blank" type="button" className="flex-1 rounded-md bg-blue-700 px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-blue-600 text-center">View Live App</a>
                             </div>
                         </div>
                     </div>

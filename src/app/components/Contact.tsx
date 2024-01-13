@@ -41,7 +41,7 @@ export default function Contact() {
                     }}>
                         <h2 className="font-bold text-white text-2xl sm:text-3xl lg:text-2xl xl:text-3xl mb-3">Need Help?</h2>
 
-                        <p className="text-body-color text-base font-medium mb-12">Feel free to reach out to me for any questions or opportunities or mail me directly on <a href="mailto:sureshchand12a@gmail.com" className="underline text-blue-700">sureshchand12a@gmail.com</a></p>
+                        <p className="text-body-color text-base font-medium mb-12">Feel free to reach out to me for any questions or opportunities or mail me directly on <a href="mailto:sureshchand12a@gmail.com" className="underline text-blue-700" title="Contact Me">sureshchand12a@gmail.com</a></p>
 
                         <div className="flex flex-wrap mx-[-16px]">
                             <div className="w-full md:w-1/2 px-4">
