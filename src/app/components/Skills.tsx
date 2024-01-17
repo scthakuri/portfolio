@@ -12,7 +12,7 @@ const Skills = () => {
                 </div>
 
 
-                <div className="grid md:grid-cols-2 max-w-screen-lg mx-auto gap-[30px] mt-16 px-5">
+                <div className="grid md:grid-cols-2 max-w-screen-lg mx-auto gap-[30px] mt-16 px-0 md:px-5">
                     {
                         skills.map((skill) => (
                             <div className="skill_container border-blue-700 border-[1px] flex gap-4 items-start flex-col " key={skill.title}>

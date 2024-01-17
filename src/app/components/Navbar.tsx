@@ -13,6 +13,7 @@ const Navbar = () => {
                     setClassName("bg-transparent");
                 }
             };
+            
             window.addEventListener("scroll", onScroll);
             return () => window.removeEventListener("scroll", onScroll);
         } catch (error) {
