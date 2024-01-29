@@ -12,6 +12,7 @@ import presspalika from "./presspalika.png";
 import digitalgurkha from "./digitalgurkha.png";
 import toolkitspro from "./toolkitspro.png";
 import Innovexisuk from "./Innovexisuk.png";
+import MayaWears from "./maya-wears.png";
 
 export {
     adblock,
@@ -27,5 +28,6 @@ export {
     presspalika,
     digitalgurkha,
     toolkitspro,
-    Innovexisuk
+    Innovexisuk,
+    MayaWears
 }

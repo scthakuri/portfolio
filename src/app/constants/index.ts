@@ -195,7 +195,7 @@ export const education = [
 
 export const projects = [
     {
-        id: 12,
+        id: 13,
         title: "Kaushala Ltd",
         date: "Jul 2023 - Aug 2023",
         description:
@@ -214,7 +214,7 @@ export const projects = [
         webapp: "https://kaushala.com/",
     },
     {
-        id: 11,
+        id: 12,
         title: "Innovexis Ltd",
         date: "Jul 2023 - Aug 2023",
         description:
@@ -233,7 +233,7 @@ export const projects = [
         webapp: "https://innovexis.co.uk/",
     },
     {
-        id: 10,
+        id: 11,
         title: "Digital Gurkha",
         date: "Jul 2023 - Aug 2023",
         description:
@@ -250,6 +250,25 @@ export const projects = [
         category: "web app",
         github: "",
         webapp: "https://digitalgurkha.com/",
+    },
+    {
+        id: 10,
+        title: "Maya Wears",
+        date: "Jan 2024 - Feb 2024",
+        description:
+            "Clothing (Brand)\nFashion for creative minds.\n🇳🇵Made with love in Nepal that's why we call it Maya.",
+        image: "./images/portifilio/maya-wears.png",
+        tags: [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "jQuery",
+            "Bootstart",
+            "Wordpress"
+        ],
+        category: "web app",
+        github: "",
+        webapp: "https://maya-wears.com/",
     },
     {
         id: 9,
