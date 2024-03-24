@@ -69,6 +69,10 @@ export const skills = [
         title: "Backend",
         skills: [
             {
+                name: "Django",
+                image: "https://seeklogo.com/images/D/django-logo-4C5ECF7036-seeklogo.com.png",
+            },
+            {
                 name: "PHP",
                 image: "https://www.php.net//images/logos/new-php-logo.svg",
             },
