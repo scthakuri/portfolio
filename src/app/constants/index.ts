@@ -89,10 +89,6 @@ export const skills = [
             {
                 name: "Firebase",
                 image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-            },
-            {
-                name : "Node JS",
-                image : "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png"
             }
         ],
     },
@@ -199,12 +195,12 @@ export const education = [
 
 export const projects = [
     {
-        id: 13,
-        title: "Kaushala Ltd",
+        id: 11,
+        title: "Digital Gurkha",
         date: "Jul 2023 - Aug 2023",
         description:
-            "Innovexis: Making Every Particle Count Discover the future where engineering and medical innovation converge. At Innovexis, we specialize in Particle Characterisation, using cutting-edge technology to transform industries and improve lives.",
-        image: "./images/portifilio/kaushala.png",
+            "Digital Gurkha first came into existence in a small room with two whiteboards, with a mission to be creative and make an impact in the Digital Marketing Industry. Back then, we did not have a mission and vision statement, but we knew that we wanted to create an organization where outliers could thrive, learn constantly, and do things differently.",
+        image: "./images/portifilio/digitalgurkha.png",
         tags: [
             "HTML",
             "CSS",
@@ -215,7 +211,7 @@ export const projects = [
         ],
         category: "web app",
         github: "",
-        webapp: "https://kaushala.com/",
+        webapp: "https://digitalgurkha.com/",
     },
     {
         id: 12,
@@ -237,12 +233,36 @@ export const projects = [
         webapp: "https://innovexis.co.uk/",
     },
     {
-        id: 11,
-        title: "Digital Gurkha",
+        id: 6,
+        title: "Hamro CSIT",
+        date: "Mar 2021 - Jun 2023",
+        description:
+            "Hamrocsit is an e-learning website tailored to support CSIT students with comprehensive notes and solutions. Our platform offers a valuable collection of study materials and problem-solving resources, catering specifically to the needs of Computer Science and Information Technology students. With easy access to well-structured content, Hamrocsit simplifies your learning journey, helping you excel in your studies and achieve academic success.",
+        image: "./images/portifilio/hamrocsit.png",
+        tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
+        category: "web app",
+        github: "",
+        webapp: "https://hamrocsit.com"
+    },
+    {
+        id: 8,
+        title: "Deal For You",
+        date: "Nov 2020 - Jan 2021",
+        description:
+            "D4U.CA is your premier source for unbeatable deals and listings in Calgary NE, Canada. Tailored for both consumers and businesses, our platform connects you to a wealth of exclusive offers, discounts, and valuable information. Whether you're a local looking to save or a business eager to showcase your offerings, D4U.CA is your gateway to enhancing your Calgary NE experience.",
+        image: "./images/portifilio/cnebd.png",
+        tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
+        category: "web app",
+        github: "",
+        webapp: "https://d4u.ca",
+    },
+    {
+        id: 13,
+        title: "Kaushala Ltd",
         date: "Jul 2023 - Aug 2023",
         description:
-            "Digital Gurkha first came into existence in a small room with two whiteboards, with a mission to be creative and make an impact in the Digital Marketing Industry. Back then, we did not have a mission and vision statement, but we knew that we wanted to create an organization where outliers could thrive, learn constantly, and do things differently.",
-        image: "./images/portifilio/digitalgurkha.png",
+            "Innovexis: Making Every Particle Count Discover the future where engineering and medical innovation converge. At Innovexis, we specialize in Particle Characterisation, using cutting-edge technology to transform industries and improve lives.",
+        image: "./images/portifilio/kaushala.png",
         tags: [
             "HTML",
             "CSS",
@@ -253,7 +273,7 @@ export const projects = [
         ],
         category: "web app",
         github: "",
-        webapp: "https://digitalgurkha.com/",
+        webapp: "https://kaushala.com/",
     },
     {
         id: 10,
@@ -287,18 +307,6 @@ export const projects = [
         webapp: "https://wordpress.org/plugins/chp-ads-block-detector/",
     },
     {
-        id: 8,
-        title: "Deal For You",
-        date: "Nov 2020 - Jan 2021",
-        description:
-            "D4U.CA is your premier source for unbeatable deals and listings in Calgary NE, Canada. Tailored for both consumers and businesses, our platform connects you to a wealth of exclusive offers, discounts, and valuable information. Whether you're a local looking to save or a business eager to showcase your offerings, D4U.CA is your gateway to enhancing your Calgary NE experience.",
-        image: "./images/portifilio/cnebd.png",
-        tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
-        category: "web app",
-        github: "",
-        webapp: "https://d4u.ca",
-    },
-    {
         id: 7,
         title: "Tool Kits PRO",
         date: "Mar 2023 - Present",
@@ -309,18 +317,6 @@ export const projects = [
         category: "web app",
         github: "https://github.com/klixsoft/toolkitspro",
         webapp: "https://toolkitspro.com",
-    },
-    {
-        id: 6,
-        title: "Hamro CSIT",
-        date: "Mar 2021 - Jun 2023",
-        description:
-            "Hamrocsit is an e-learning website tailored to support CSIT students with comprehensive notes and solutions. Our platform offers a valuable collection of study materials and problem-solving resources, catering specifically to the needs of Computer Science and Information Technology students. With easy access to well-structured content, Hamrocsit simplifies your learning journey, helping you excel in your studies and achieve academic success.",
-        image: "./images/portifilio/hamrocsit.png",
-        tags: ["HTML", "CSS", "Javascript", "jQuery", "Bootstart", "Wordpress"],
-        category: "web app",
-        github: "",
-        webapp: "https://hamrocsit.com"
     },
     {
         id: 5,
